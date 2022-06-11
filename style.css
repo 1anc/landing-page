@@ -87,17 +87,21 @@ button {
     padding: 50px 0px;
 }
 
+.card-section>.container {
+    gap: 30px;
+    max-width: 720px;
+}
+
 .card-section>.container>h2 {
     align-self: center;
     font-size: 36px;
     font-weight: 900;
-    margin-top: 0px;
-    margin-bottom: 40px;
+    margin: 0px;
 }
 
 .card-set {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     text-align: center;
 }
 
@@ -121,6 +125,10 @@ button {
     display: flex;
     flex-direction: column;
     padding: 50px 0px;
+}
+
+.quote-section>.container {
+    max-width: 720px;
 }
 
 p {
@@ -176,4 +184,10 @@ p.by {
 
 .footer {
     background: #1f2937;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    text-align: center;
 }
