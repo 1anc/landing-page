@@ -11,13 +11,16 @@ h1 {
 
 .container {
     width: 900px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero {
     background: #1f2937;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -74,6 +77,40 @@ button {
     color: white;
     font-weight: 600;
     font-size: 18px;
+}
+
+.card-section {
+    display: flex;
+    flex-direction: column;
+    color: #1f2937;
+}
+
+.card-section>.container>h2 {
+    align-self: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.card-set {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cards>img {
+    width: 140px;
+    height: 140px;
+    border-width: 4px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 8px;
 }
 
 .footer {
