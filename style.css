@@ -142,6 +142,38 @@ p.by {
     margin-top: 0px;
 }
 
+.cta {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0px;
+}
+
+.blue-card {
+    background: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px;
+    color: white;
+}
+
+.blue-card>.right>button {
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.blue-card>.left>h3 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.blue-card>.left>p {
+    margin: 0px;
+    padding: 0px;
+}
+
 .footer {
     background: #1f2937;
 }
